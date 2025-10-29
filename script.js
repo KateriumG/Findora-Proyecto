@@ -1,3 +1,4 @@
-const elVideo = document.getElementById('video')
+const elVideo = document.getElementById('video');
 
-navigator.getMedia = (navigator.getUserMedia || navigator.webkitGetUserMedia)
+navigator.getMedia = (navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia);
+
